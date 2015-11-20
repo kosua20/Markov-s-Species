@@ -1,0 +1,257 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4794BC01B73B895004E71D4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4794BBF1B73B895004E71D4 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F4794BBA1B73B894004E71D4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F45CFE271B73BA580027DC9D /* Markov Species Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Markov Species Playground.playground"; sourceTree = "<group>"; };
+		F45CFE281B73BA630027DC9D /* species_1_raw.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = species_1_raw.csv; sourceTree = "<group>"; };
+		F4794BBC1B73B895004E71D4 /* Markov Species */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Markov Species"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4794BBF1B73B895004E71D4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4794BB91B73B894004E71D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4794BB31B73B894004E71D4 = {
+			isa = PBXGroup;
+			children = (
+				F4794BBE1B73B895004E71D4 /* Markov Species */,
+				F4794BBD1B73B895004E71D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4794BBD1B73B895004E71D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4794BBC1B73B895004E71D4 /* Markov Species */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4794BBE1B73B895004E71D4 /* Markov Species */ = {
+			isa = PBXGroup;
+			children = (
+				F4794BC61B73B8A2004E71D4 /* Resources */,
+				F4794BBF1B73B895004E71D4 /* main.swift */,
+				F45CFE271B73BA580027DC9D /* Markov Species Playground.playground */,
+			);
+			path = "Markov Species";
+			sourceTree = "<group>";
+		};
+		F4794BC61B73B8A2004E71D4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F45CFE281B73BA630027DC9D /* species_1_raw.csv */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4794BBB1B73B894004E71D4 /* Markov Species */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4794BC31B73B895004E71D4 /* Build configuration list for PBXNativeTarget "Markov Species" */;
+			buildPhases = (
+				F4794BB81B73B894004E71D4 /* Sources */,
+				F4794BB91B73B894004E71D4 /* Frameworks */,
+				F4794BBA1B73B894004E71D4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Markov Species";
+			productName = "Markov Species";
+			productReference = F4794BBC1B73B895004E71D4 /* Markov Species */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4794BB41B73B894004E71D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Simon Rodriguez";
+				TargetAttributes = {
+					F4794BBB1B73B894004E71D4 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = F4794BB71B73B894004E71D4 /* Build configuration list for PBXProject "Markov Species" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4794BB31B73B894004E71D4;
+			productRefGroup = F4794BBD1B73B895004E71D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4794BBB1B73B894004E71D4 /* Markov Species */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4794BB81B73B894004E71D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4794BC01B73B895004E71D4 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F4794BC11B73B895004E71D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4794BC21B73B895004E71D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F4794BC41B73B895004E71D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4794BC51B73B895004E71D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4794BB71B73B894004E71D4 /* Build configuration list for PBXProject "Markov Species" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4794BC11B73B895004E71D4 /* Debug */,
+				F4794BC21B73B895004E71D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4794BC31B73B895004E71D4 /* Build configuration list for PBXNativeTarget "Markov Species" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4794BC41B73B895004E71D4 /* Debug */,
+				F4794BC51B73B895004E71D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4794BB41B73B894004E71D4 /* Project object */;
+}
