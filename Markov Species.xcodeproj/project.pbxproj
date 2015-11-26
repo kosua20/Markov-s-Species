@@ -25,7 +25,7 @@
 /* Begin PBXFileReference section */
 		F45CFE271B73BA580027DC9D /* Markov Species Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Markov Species Playground.playground"; sourceTree = "<group>"; };
 		F45CFE281B73BA630027DC9D /* species_1_raw.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = species_1_raw.csv; sourceTree = "<group>"; };
-		F4794BBC1B73B895004E71D4 /* Markov Species */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Markov Species"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4794BBC1B73B895004E71D4 /* markov_species */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = markov_species; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4794BBF1B73B895004E71D4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,7 +51,7 @@
 		F4794BBD1B73B895004E71D4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F4794BBC1B73B895004E71D4 /* Markov Species */,
+				F4794BBC1B73B895004E71D4 /* markov_species */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,9 +77,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F4794BBB1B73B894004E71D4 /* Markov Species */ = {
+		F4794BBB1B73B894004E71D4 /* markov_species */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4794BC31B73B895004E71D4 /* Build configuration list for PBXNativeTarget "Markov Species" */;
+			buildConfigurationList = F4794BC31B73B895004E71D4 /* Build configuration list for PBXNativeTarget "markov_species" */;
 			buildPhases = (
 				F4794BB81B73B894004E71D4 /* Sources */,
 				F4794BB91B73B894004E71D4 /* Frameworks */,
@@ -89,9 +89,9 @@
 			);
 			dependencies = (
 			);
-			name = "Markov Species";
+			name = markov_species;
 			productName = "Markov Species";
-			productReference = F4794BBC1B73B895004E71D4 /* Markov Species */;
+			productReference = F4794BBC1B73B895004E71D4 /* markov_species */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4794BBB1B73B894004E71D4 /* Markov Species */,
+				F4794BBB1B73B894004E71D4 /* markov_species */,
 			);
 		};
 /* End PBXProject section */
@@ -242,7 +242,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4794BC31B73B895004E71D4 /* Build configuration list for PBXNativeTarget "Markov Species" */ = {
+		F4794BC31B73B895004E71D4 /* Build configuration list for PBXNativeTarget "markov_species" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4794BC41B73B895004E71D4 /* Debug */,

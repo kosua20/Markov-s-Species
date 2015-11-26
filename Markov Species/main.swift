@@ -14,7 +14,7 @@ var dictionnary : [String:[String]] = [:]
 //
 // - build markov chain:
 //
-//      build --size=2 --upto=0 path/to/file
+//      build --size=2 path/to/file
 //
 // - generate a species:
 //
@@ -32,13 +32,14 @@ func main(all_args : [String] = []){
     switch args[0] {
         case "build":
             var size = 2
-            var upto = false
+            //var upto = false
             
             for i in 1..<args.count - 1 {
                 if args[i].hasPrefix("--size="), let number = Int(args[i].substringFromIndex(args[i].startIndex.advancedBy(7))){
                     size = number
-                } else if args[i].hasPrefix("--upto="), let number = Int(args[i].substringFromIndex(args[i].startIndex.advancedBy(7))) {
+                /*} else if args[i].hasPrefix("--upto="), let number = Int(args[i].substringFromIndex(args[i].startIndex.advancedBy(7))) {
                     upto = (number != 0)
+                    */
                 } else {
                     print("Error with the argument \(args[i])")
                 }
