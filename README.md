@@ -28,3 +28,6 @@ This utility is content-independant, and can be used to generate any kind of seq
 		New species: Unicansonia Effenella
 		New species: Cnemiphlox Glaucensis
 		New species: Lutraea Exarmosmilneedwardalerhamala
+		
+##About me
+More info on my website [simonrodriguez.fr](http://simonrodriguez.fr) and my [blog](http://blog.simonrodriguez.fr).
