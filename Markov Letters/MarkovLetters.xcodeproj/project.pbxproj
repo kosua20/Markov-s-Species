@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F46F44FB1BF77A6C00AB7388 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46F44FA1BF77A6C00AB7388 /* main.swift */; };
+		F46F45021BF77A7600AB7388 /* LettersGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46F45011BF77A7600AB7388 /* LettersGenerator.swift */; };
+		F4E49DFE1BF88FBD007340A7 /* GenerateThumbnailForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E49DFD1BF88FBD007340A7 /* GenerateThumbnailForURL.m */; };
+		F4E49E001BF88FBD007340A7 /* GeneratePreviewForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E49DFF1BF88FBD007340A7 /* GeneratePreviewForURL.m */; };
+		F4E49E021BF88FBD007340A7 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F4E49E011BF88FBD007340A7 /* main.c */; };
+		F4E49E0A1BF89323007340A7 /* MarkovLettersQuicklook.qlgenerator in CopyFiles */ = {isa = PBXBuildFile; fileRef = F4E49DFB1BF88FBD007340A7 /* MarkovLettersQuicklook.qlgenerator */; };
+		F4FDCAD71BFE1890009843AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FDCAD61BFE1890009843AA /* AppDelegate.swift */; };
+		F4FDCAD91BFE1890009843AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FDCAD81BFE1890009843AA /* ViewController.swift */; };
+		F4FDCADB1BFE1890009843AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4FDCADA1BFE1890009843AA /* Assets.xcassets */; };
+		F4FDCADE1BFE1890009843AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4FDCADC1BFE1890009843AA /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F46F44F51BF77A6C00AB7388 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F4E49E091BF8931D007340A7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "~/Library/QuickLook";
+			dstSubfolderSpec = 0;
+			files = (
+				F4E49E0A1BF89323007340A7 /* MarkovLettersQuicklook.qlgenerator in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F46F44F71BF77A6C00AB7388 /* MarkovLetters */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MarkovLetters; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46F44FA1BF77A6C00AB7388 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F46F45011BF77A7600AB7388 /* LettersGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LettersGenerator.swift; sourceTree = "<group>"; };
+		F4E49DFB1BF88FBD007340A7 /* MarkovLettersQuicklook.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarkovLettersQuicklook.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E49DFD1BF88FBD007340A7 /* GenerateThumbnailForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateThumbnailForURL.m; sourceTree = "<group>"; };
+		F4E49DFF1BF88FBD007340A7 /* GeneratePreviewForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneratePreviewForURL.m; sourceTree = "<group>"; };
+		F4E49E011BF88FBD007340A7 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F4E49E031BF88FBD007340A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4FDCAD41BFE1890009843AA /* MarkovLettersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarkovLettersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4FDCAD61BFE1890009843AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4FDCAD81BFE1890009843AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4FDCADA1BFE1890009843AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4FDCADD1BFE1890009843AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4FDCADF1BFE1890009843AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F46F44F41BF77A6C00AB7388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E49DF71BF88FBD007340A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4FDCAD11BFE1890009843AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F46F44EE1BF77A6C00AB7388 = {
+			isa = PBXGroup;
+			children = (
+				F46F44F91BF77A6C00AB7388 /* MarkovLetters */,
+				F4E49DFC1BF88FBD007340A7 /* MarkovLettersQuicklook */,
+				F4FDCAD51BFE1890009843AA /* MarkovLettersApp */,
+				F46F44F81BF77A6C00AB7388 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F46F44F81BF77A6C00AB7388 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F46F44F71BF77A6C00AB7388 /* MarkovLetters */,
+				F4E49DFB1BF88FBD007340A7 /* MarkovLettersQuicklook.qlgenerator */,
+				F4FDCAD41BFE1890009843AA /* MarkovLettersApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F46F44F91BF77A6C00AB7388 /* MarkovLetters */ = {
+			isa = PBXGroup;
+			children = (
+				F46F44FA1BF77A6C00AB7388 /* main.swift */,
+				F46F45011BF77A7600AB7388 /* LettersGenerator.swift */,
+			);
+			path = MarkovLetters;
+			sourceTree = "<group>";
+		};
+		F4E49DFC1BF88FBD007340A7 /* MarkovLettersQuicklook */ = {
+			isa = PBXGroup;
+			children = (
+				F4E49DFD1BF88FBD007340A7 /* GenerateThumbnailForURL.m */,
+				F4E49DFF1BF88FBD007340A7 /* GeneratePreviewForURL.m */,
+				F4E49E011BF88FBD007340A7 /* main.c */,
+				F4E49E031BF88FBD007340A7 /* Info.plist */,
+			);
+			path = MarkovLettersQuicklook;
+			sourceTree = "<group>";
+		};
+		F4FDCAD51BFE1890009843AA /* MarkovLettersApp */ = {
+			isa = PBXGroup;
+			children = (
+				F4FDCAD61BFE1890009843AA /* AppDelegate.swift */,
+				F4FDCAD81BFE1890009843AA /* ViewController.swift */,
+				F4FDCADA1BFE1890009843AA /* Assets.xcassets */,
+				F4FDCADC1BFE1890009843AA /* Main.storyboard */,
+				F4FDCADF1BFE1890009843AA /* Info.plist */,
+			);
+			path = MarkovLettersApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F4E49DF81BF88FBD007340A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F46F44F61BF77A6C00AB7388 /* MarkovLetters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46F44FE1BF77A6C00AB7388 /* Build configuration list for PBXNativeTarget "MarkovLetters" */;
+			buildPhases = (
+				F46F44F31BF77A6C00AB7388 /* Sources */,
+				F46F44F41BF77A6C00AB7388 /* Frameworks */,
+				F46F44F51BF77A6C00AB7388 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarkovLetters;
+			productName = MarkovLetters;
+			productReference = F46F44F71BF77A6C00AB7388 /* MarkovLetters */;
+			productType = "com.apple.product-type.tool";
+		};
+		F4E49DFA1BF88FBD007340A7 /* MarkovLettersQuicklook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E49E061BF88FBD007340A7 /* Build configuration list for PBXNativeTarget "MarkovLettersQuicklook" */;
+			buildPhases = (
+				F4E49DF61BF88FBD007340A7 /* Sources */,
+				F4E49DF71BF88FBD007340A7 /* Frameworks */,
+				F4E49DF81BF88FBD007340A7 /* Headers */,
+				F4E49DF91BF88FBD007340A7 /* Resources */,
+				F4E49E091BF8931D007340A7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarkovLettersQuicklook;
+			productName = MarkovLettersQuicklook;
+			productReference = F4E49DFB1BF88FBD007340A7 /* MarkovLettersQuicklook.qlgenerator */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F4FDCAD31BFE1890009843AA /* MarkovLettersApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4FDCAE21BFE1890009843AA /* Build configuration list for PBXNativeTarget "MarkovLettersApp" */;
+			buildPhases = (
+				F4FDCAD01BFE1890009843AA /* Sources */,
+				F4FDCAD11BFE1890009843AA /* Frameworks */,
+				F4FDCAD21BFE1890009843AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarkovLettersApp;
+			productName = MarkovLettersApp;
+			productReference = F4FDCAD41BFE1890009843AA /* MarkovLettersApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F46F44EF1BF77A6C00AB7388 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Simon Rodriguez";
+				TargetAttributes = {
+					F46F44F61BF77A6C00AB7388 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					F4E49DFA1BF88FBD007340A7 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					F4FDCAD31BFE1890009843AA = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = F46F44F21BF77A6C00AB7388 /* Build configuration list for PBXProject "MarkovLetters" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F46F44EE1BF77A6C00AB7388;
+			productRefGroup = F46F44F81BF77A6C00AB7388 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F46F44F61BF77A6C00AB7388 /* MarkovLetters */,
+				F4E49DFA1BF88FBD007340A7 /* MarkovLettersQuicklook */,
+				F4FDCAD31BFE1890009843AA /* MarkovLettersApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4E49DF91BF88FBD007340A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4FDCAD21BFE1890009843AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4FDCADB1BFE1890009843AA /* Assets.xcassets in Resources */,
+				F4FDCADE1BFE1890009843AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F46F44F31BF77A6C00AB7388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46F44FB1BF77A6C00AB7388 /* main.swift in Sources */,
+				F46F45021BF77A7600AB7388 /* LettersGenerator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E49DF61BF88FBD007340A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E49DFE1BF88FBD007340A7 /* GenerateThumbnailForURL.m in Sources */,
+				F4E49E001BF88FBD007340A7 /* GeneratePreviewForURL.m in Sources */,
+				F4E49E021BF88FBD007340A7 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4FDCAD01BFE1890009843AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4FDCAD91BFE1890009843AA /* ViewController.swift in Sources */,
+				F4FDCAD71BFE1890009843AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4FDCADC1BFE1890009843AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4FDCADD1BFE1890009843AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F46F44FC1BF77A6C00AB7388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F46F44FD1BF77A6C00AB7388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F46F44FF1BF77A6C00AB7388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F46F45001BF77A6C00AB7388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4E49E041BF88FBD007340A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MarkovLettersQuicklook/Info.plist;
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simonrodriguez.MarkovLettersQuicklook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Debug;
+		};
+		F4E49E051BF88FBD007340A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MarkovLettersQuicklook/Info.plist;
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simonrodriguez.MarkovLettersQuicklook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Release;
+		};
+		F4FDCAE01BFE1890009843AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MarkovLettersApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simonrodriguez.MarkovLettersApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4FDCAE11BFE1890009843AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MarkovLettersApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simonrodriguez.MarkovLettersApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F46F44F21BF77A6C00AB7388 /* Build configuration list for PBXProject "MarkovLetters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46F44FC1BF77A6C00AB7388 /* Debug */,
+				F46F44FD1BF77A6C00AB7388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F46F44FE1BF77A6C00AB7388 /* Build configuration list for PBXNativeTarget "MarkovLetters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46F44FF1BF77A6C00AB7388 /* Debug */,
+				F46F45001BF77A6C00AB7388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E49E061BF88FBD007340A7 /* Build configuration list for PBXNativeTarget "MarkovLettersQuicklook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E49E041BF88FBD007340A7 /* Debug */,
+				F4E49E051BF88FBD007340A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4FDCAE21BFE1890009843AA /* Build configuration list for PBXNativeTarget "MarkovLettersApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FDCAE01BFE1890009843AA /* Debug */,
+				F4FDCAE11BFE1890009843AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F46F44EF1BF77A6C00AB7388 /* Project object */;
+}
